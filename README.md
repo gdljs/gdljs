@@ -6,6 +6,12 @@ ayuda. Read on.
 
 ## Quiero dar una plática en GDLJS
 
+#### TL;DR
+
+* [Abre un issue][new-issue]
+* Plática de 20 minutos máximo
+* Un demo en github
+
 En GDLJS siempre buscamos escuchar de temas interesantes de la
 comunidad, y queremos escuchar de todos. Si no estás seguro de que
 podrías hablar, la recomendación que tenemos es: Piensa en un problema
@@ -28,11 +34,6 @@ el contenido de la plática no se vaya muy profundo en el código: con
 algunos ejemplos es suficiente, por eso pedimos que todas las pláticas
 vengan con un **demo** que los demás puedan ver en su tiempo si desean
 profundizar en el tema o reforzar lo que explicaste.
-
-#### TL;DR
-
-* Plática de 20 minutos máximo
-* Un demo en github
 
 ## Quiero hacer un evento con la comunidad de GDLJS
 
