@@ -62,7 +62,7 @@ Para correcciones o problemas que consideres que no son muy urgentes,
 puedes hacérnoslo saber por [slack][slack], [twitter][twitter], o
 [facebook][facebook].
 
-Si tu problema es más urgente, requiere discresión o consideras que
+Si tu problema es más urgente, requiere discreción o consideras que
 estos canales no son apropiados, puedes enviarnos un [e-mail][email].
 
 ## Si todo lo demás falla:
