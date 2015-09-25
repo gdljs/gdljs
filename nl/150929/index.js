@@ -48,7 +48,8 @@ class Builder{
   _processPosts () {
 
     Object.keys(this.starsByDate).forEach( (date) => {
-      var month = date.split('-')[0],
+      var avatar,
+          month = date.split('-')[0],
           day = date.split('-')[1];
 
       this.postGroupTemplate.querySelector('.posts').innerHTML = '';
@@ -66,15 +67,25 @@ class Builder{
         this.postTemplate.querySelector('.day').innerHTML = day;
         this.postTemplate.querySelector('.time').innerHTML = time;
 
-        this.postTemplate.querySelector('.username').innerHTML = star.message.user;
+        this.postTemplate.querySelector('.username').innerHTML = star.message.user.name;
+
+        Object.keys(star.message.user.profile).forEach(function(profileKey){
+          if(profileKey.indexOf('image_')>-1){
+            avatar = star.message.user.profile[profileKey];
+          }
+        });
+
+        this.postTemplate.querySelector('.avatar').style.backgroundImage = 'url('+avatar+')';
         this.postTemplate.querySelector('.message').innerHTML = star.message.text;
 
         if(star.message.attachments){
           star.message.attachments.forEach((attachment) => {
-            let anchor = document.createElement('a');
+            let anchor = document.createElement('a'),
+                title = attachment.title ? attachment.title : attachment.from_url;
+
             anchor.href = attachment.from_url;
-            anchor.title = attachment.title;
-            anchor.appendChild(document.createTextNode(attachment.title));
+            anchor.title = title
+            anchor.appendChild(document.createTextNode(title));
             this.postTemplate.querySelector('.links').appendChild(anchor);
           });
         }
