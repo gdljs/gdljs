@@ -1,0 +1,11 @@
+*.log
+node_modules
+*.DS_Store
+.sass-cache
+dump.rdb
+public/
+log/
+config/*.pem
+*.pem
+
+*data.json
