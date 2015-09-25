@@ -63,6 +63,15 @@ body{
   .post-group{
     margin: 10px;
 
+    &:after{
+      visibility: hidden;
+      display: block;
+      font-size: 0;
+      content: " ";
+      clear: both;
+      height: 0;
+    }
+
     .group-date{
       font-size: 50px;
       text-align: right;
@@ -73,12 +82,24 @@ body{
         margin-right: -17px;
         opacity: .5;
       }
+
+    }
+
+    .posts{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+
+      .post-container{
+        flex: 1;
+        min-width: 250px;
+        max-width: 300px;
+      }
     }
 
     .post{
-      // background-color: blue;
-      float: right;
-      width: 300px;
+      // width: 300px;
       margin: 10px;
       position: relative;
 
