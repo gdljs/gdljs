@@ -5,7 +5,8 @@ class Builder{
   constructor (){
     this.starsByDate = {};
 
-    this.starsData = JSON.parse(document.querySelector('#data').textContent).items.reverse();
+    this.data = JSON.parse(document.querySelector('#data').textContent);
+    this.starsData = this.data.items.reverse();
 
     this.wall = document.querySelector('.wall');
 
@@ -48,7 +49,7 @@ class Builder{
   _processPosts () {
 
     Object.keys(this.starsByDate).forEach( (date) => {
-      var avatar,
+      var avatar, messageLinks,
           month = date.split('-')[0],
           day = date.split('-')[1];
 
@@ -57,11 +58,14 @@ class Builder{
       this.postGroupTemplate.querySelector('.day').innerHTML = day;
 
       this.starsByDate[date].forEach((star)=>{
-        let date = new Date(parseInt(star.message.ts.substr(0,star.message.ts.indexOf('.')))* 1000),
+        let href, pipe, user,
+            date = new Date(parseInt(star.message.ts.substr(0,star.message.ts.indexOf('.')))* 1000),
             hours = date.getHours(),
             time = hours + ':' + date.getMinutes() + (hours >= 12 ? ' PM' : ' AM');
 
         this.postTemplate.querySelector('.links').innerHTML = '';
+
+        this.postTemplate.querySelector('.permalink').href = star.message.permalink;
 
         this.postTemplate.querySelector('.month').innerHTML = month;
         this.postTemplate.querySelector('.day').innerHTML = day;
@@ -76,7 +80,57 @@ class Builder{
         });
 
         this.postTemplate.querySelector('.avatar').style.backgroundImage = 'url('+avatar+')';
+
+        messageLinks = star.message.text.match(/\<([^>]+)\>/);
+
+        if(messageLinks){
+          messageLinks.forEach((link)=>{
+
+            if(typeof link !== 'string'){
+              return;
+            }
+
+            //links
+            if(link.indexOf('.') > -1 && link.indexOf('<') < 0){
+              href = decodeURIComponent(messageLinks[1]);
+
+              if(href.indexOf('|')>-1){
+                href = href.substr(0,href.indexOf('|'));
+              }
+
+              star.message.text = star.message.text.replace(messageLinks[0], '<a href="'+href+'">'+href+'</a>');
+
+              if(!star.message.attachments){
+                star.message.attachments = [{
+                  title: href,
+                  from_url: href
+                }]
+              }
+            }
+
+            //mentions
+            if(link.indexOf('@') > -1 && link.indexOf('<') > -1){
+
+              if(link.indexOf('|') > -1){
+                user = link.substr(link.indexOf('@')+1, link.indexOf('|')-2);
+              }else{
+                user = link.substr(link.indexOf('@')+1, link.length-3);
+              }
+              user = this.data.users[user];
+              star.message.text = star.message.text.replace(link, '<a href="https://gdljs.slack.com/team/'+user.name+'">'+user.name+'</a>');
+
+            }
+
+          });
+        }
+
+
+
         this.postTemplate.querySelector('.message').innerHTML = star.message.text;
+
+
+
+
 
         if(star.message.attachments){
           star.message.attachments.forEach((attachment) => {
@@ -89,6 +143,9 @@ class Builder{
             this.postTemplate.querySelector('.links').appendChild(anchor);
           });
         }
+
+
+
 
         this.postGroupTemplate.querySelector('.posts').appendChild(document.importNode(this.postTemplate, true));
       });

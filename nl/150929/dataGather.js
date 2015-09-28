@@ -4,6 +4,9 @@ var request = require('request'),
     Promise = require('bluebird'),
     fs = require('fs'),
 
+    starsEndpoint = 'https://slack.com/api/stars.list?token=xoxp-5100493081-5078972524-10646900705-fb5d36cf71&user=U052AULFE',
+    userInfoEndpoint = 'https://slack.com/api/users.info?token=xoxp-5100493081-5078972524-10646900705-fb5d36cf71&user=',
+
     userData = {},
     starData;
 
@@ -70,7 +73,7 @@ process.then(function(stars){
     });
   });
 }).then(function(users){
-
+  starData.users = users;
   starData.items.forEach(function(star){
 
     if(!star.message){
@@ -82,7 +85,9 @@ process.then(function(stars){
   });
 
   var index = fs.readFileSync('index.tpl.html', 'utf-8');
+
   index = index.replace('{{data}}', JSON.stringify(starData));
+
   fs.writeFileSync('index.html', index);
   console.log('>done');
 
