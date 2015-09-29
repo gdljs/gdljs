@@ -71,6 +71,23 @@ class Builder{
         this.postTemplate.querySelector('.day').innerHTML = day;
         this.postTemplate.querySelector('.time').innerHTML = time;
 
+        this.postTemplate.querySelector('.content img').style.display = '';
+        if(star.message.img){
+          this.postTemplate.querySelector('.content img').src = 'img/'+star.message.img;
+        }else{
+          this.postTemplate.querySelector('.content img').style.display = 'none';
+        }
+
+        this.postTemplate.querySelector('.content p').style.display = '';
+
+        if(star.message.copy){
+          this.postTemplate.querySelector('.content p').innerHTML = star.message.copy;
+        }else{
+          this.postTemplate.querySelector('.content p').style.display = 'none';
+        }
+
+
+
         this.postTemplate.querySelector('.username').innerHTML = star.message.user.name;
 
         Object.keys(star.message.user.profile).forEach(function(profileKey){

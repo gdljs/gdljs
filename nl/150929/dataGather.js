@@ -4,8 +4,6 @@ var request = require('request'),
     Promise = require('bluebird'),
     fs = require('fs'),
 
-    starsEndpoint = 'https://slack.com/api/stars.list?token=xoxp-5100493081-5078972524-10646900705-fb5d36cf71&user=U052AULFE',
-    userInfoEndpoint = 'https://slack.com/api/users.info?token=xoxp-5100493081-5078972524-10646900705-fb5d36cf71&user=',
 
     userData = {},
     starData;
