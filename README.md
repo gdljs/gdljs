@@ -80,7 +80,7 @@ estos canales no son apropiados, puedes enviarnos un [e-mail][email].
 [twitter]: https://twitter.com/gdl_js
 [facebook]: https://facebook.com/gdljs
 [email]: mailto:contacto@gdljs.com
-[orlando]: https://twitter.com/odelaguila
+[orlando]: https://twitter.com/eatcodetravel
 [ruben]: https://twitter.com/pigeonfolk
 [salvador]: https://twitter.com/SalvadorBFM
 [joaquin]: https://twitter.com/escusado
