@@ -9,5 +9,6 @@ config/*.pem
 *.pem
 
 *data.json
+*config.json
 
-nl/150929/index.html
+*index.html
