@@ -133,8 +133,12 @@ class Builder{
               }else{
                 user = link.substr(link.indexOf('@')+1, link.length-3);
               }
+
               user = this.data.users[user];
-              star.message.text = star.message.text.replace(link, '<a href="https://gdljs.slack.com/team/'+user.name+'">'+user.name+'</a>');
+
+              if(user){
+                star.message.text = star.message.text.replace(link, '<a href="https://gdljs.slack.com/team/'+user.name+'">'+user.name+'</a>');
+              }
 
             }
 
@@ -174,4 +178,3 @@ class Builder{
   }
 
 };
-

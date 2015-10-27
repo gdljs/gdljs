@@ -3,7 +3,9 @@
 var request = require('request'),
     Promise = require('bluebird'),
     fs = require('fs'),
-
+    config = JSON.parse(fs.readFileSync('config.json', 'utf-8')),
+    starsEndpoint = config.starsEndpoint,
+    userInfoEndpoint = config.userInfoEndpoint,
 
     userData = {},
     starData;
@@ -26,6 +28,8 @@ process.then(function(stars){
     if(!star.message){
       return;
     }
+
+    star.message.img = 'ast.png';
 
     userUrls.push(userInfoEndpoint+star.message.user);
 
