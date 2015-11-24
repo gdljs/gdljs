@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TMIGDLJS</title>
+
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+
+  <script id="data" type="application/json">{{data}}</script>
+  <script src="index.js"></script>
+
+  <script>
+
+    if (document.readyState != 'loading'){
+        load();
+    } else {
+        document.addEventListener('DOMContentLoaded', load);
+    }
+
+    function load(){
+      window.builder = new Builder();
+      builder.process();
+    };
+
+  </script>
+
+</head>
+<body>
+
+<template id="post-group-template">
+  <div class="post-group">
+    <div class="group-date">
+      <span class="month">Month</span>
+      <span class="day">25</span>
+    </div>
+    <div class="posts"></div>
+  </div>
+</template>
+
+<template id="post-template">
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(https://avatars.slack-edge.com/2015-07-02/7165573508_199c89c9ab39eb62acbe_48.jpg);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">username</span> <a class="permalink" href=""> <span class="date"> <span class="month"></span> <span class="day"></span>th at <span class="time"></span> </span> </a> </div>
+          <div class="message">
+            Lorem <a href="#">Ipsum</a> Lorem ipsum dolor sit amet, molestias, molestiae voluptates.
+          </div>
+
+      </div>
+
+      <div class="content">
+        <img src="http://gdljs.github.io/gdljs/nl/150825/img/image01.gif">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links">
+      </div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+</template>
+
+
+
+
+
+
+<div class="app">
+
+  <div class="sidebar">
+
+    <div class="logo-container"></div>
+
+    <div class="title">
+      LMIGDLJS
+    </div>
+
+    <div class="description">
+      <b>Last Month In GDLJS</b> es un pequeño resumen de lo que se habla en <b>la comunidad oficial de #slack de GDLJS</b>, puedes entrar y platicar con la comunidad, hacer preguntas y comandar al @cholobot.
+    </div>
+
+    <div class="links">
+      <div class="twitter"></div>
+      <div class="facebook"></div>
+      <div class="slack"></div>
+      <div class="google"></div>
+      <div class="youtube"></div>
+      <div class="slideshare"></div>
+      <div class="meetup"></div>
+      <div class="eventbrite"></div>
+      <div class="splash"></div>
+    </div>
+
+    <div class="dates">
+
+      <div class="month">
+
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="wall">
+
+
+
+  </div>
+
+</div>
+
+</body>
+</html>
