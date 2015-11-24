@@ -153,7 +153,7 @@ a { text-decoration: none; }
 
 body, h1, h2, p { margin: 0; padding: 0; }
 
-body { height: 100%; min-width: 600px; background-color: #FBA450; color: #333333; font-family: 'Source Sans Pro', sans-serif; }
+body { height: 100%; min-width: 600px; background-color: #EFDA5B; color: #333333; font-family: 'Source Sans Pro', sans-serif; }
 body a { color: #FFA400; }
 
 .sidebar { width: 150px; padding: 10px; position: fixed; top: 0; left: 0; height: 100%; }
