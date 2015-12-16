@@ -31,7 +31,7 @@ body{
   left: 0;
   height: 100%;
 
-  .logo-container{
+  .logo-container, .qr-container{
     width: 150px;
     height: 150px;
     margin-bottom: 10px;
@@ -41,6 +41,10 @@ body{
 
     border-radius: 3px;
     box-shadow: inset 0 0 0 3px rgba(255,255,255,.5);
+  }
+
+  .qr-container{
+    background-image: url("qr.png");
   }
 
   .title{
