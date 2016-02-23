@@ -1,0 +1,8 @@
+{
+  "name": "Project",
+  "description": "Description",
+  "dependencies": {
+    "bluebird": "^2.10.1",
+    "request": "^2.64.0"
+  }
+}

@@ -1,0 +1,819 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TMIGDLJS</title>
+
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+<body>
+
+<template id="post-group-template">
+  <div class="post-group">
+    <div class="group-date">
+      <span class="month">Feb</span>
+      <span class="day">22</span>
+    </div>
+    <div class="posts">
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://secure.gravatar.com/avatar/13039d2967a4170748a554ec1ea16bfe.jpg?s=512&amp;d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F7fa9%2Fimg%2Favatars%2Fava_0002-512.png&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">hugo_dc</span> <a class="permalink" href="https://gdljs.slack.com/archives/general/p1456167574000315"> <span class="date"> <span class="month">Feb</span> <span class="day">22</span>th at <span class="time">12:59 PM</span> </span> </a> </div>
+          <div class="message">Buen día, tengo una duda, estoy tratando de agregar <a href="https://github.com/yabwe/medium-editor">https://github.com/yabwe/medium-editor</a> a una aplicación de Electron, me está arrojando el siguiente error:  `Uncaught ReferenceError: MediumEditor is not defined`  ,  creo que tengo todo tal cuál en los demos, pero no funciona :neutral_face:</div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223163935.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="https://github.com/yabwe/medium-editor" title="yabwe/medium-editor">yabwe/medium-editor</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+</div>
+  </div>
+</template>
+
+<template id="post-template">
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://secure.gravatar.com/avatar/13039d2967a4170748a554ec1ea16bfe.jpg?s=512&amp;d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F7fa9%2Fimg%2Favatars%2Fava_0002-512.png&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">hugo_dc</span> <a class="permalink" href="https://gdljs.slack.com/archives/general/p1456167574000315"> <span class="date"> <span class="month">Feb</span> <span class="day">22</span>th at <span class="time">12:59 PM</span> </span> </a> </div>
+          <div class="message">Buen día, tengo una duda, estoy tratando de agregar <a href="https://github.com/yabwe/medium-editor">https://github.com/yabwe/medium-editor</a> a una aplicación de Electron, me está arrojando el siguiente error:  `Uncaught ReferenceError: MediumEditor is not defined`  ,  creo que tengo todo tal cuál en los demos, pero no funciona :neutral_face:</div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223163935.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="https://github.com/yabwe/medium-editor" title="yabwe/medium-editor">yabwe/medium-editor</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+</template>
+
+
+
+
+
+
+<div class="app">
+
+  <div class="sidebar">
+
+    <div class="logo-container"></div>
+
+    <div class="title">
+      LMIGDLJS
+    </div>
+
+    <div class="description">
+      <b>Last Month In GDLJS</b> es un pequeño resumen de lo que se habla en <b>la comunidad oficial de #slack de GDLJS</b>, puedes entrar y platicar con la comunidad, hacer preguntas y comandar al @cholobot.
+    </div>
+
+    <div class="links">
+      <div class="twitter"></div>
+      <div class="facebook"></div>
+      <div class="slack"></div>
+      <div class="google"></div>
+      <div class="youtube"></div>
+      <div class="slideshare"></div>
+      <div class="meetup"></div>
+      <div class="eventbrite"></div>
+      <div class="splash"></div>
+    </div>
+
+    <div class="qr-container"></div>
+
+
+    <div class="dates">
+
+      <div class="month">
+
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="wall">
+
+
+
+
+  <div class="post-group">
+    <div class="group-date">
+      <span class="month">Jan</span>
+      <span class="day">26</span>
+    </div>
+    <div class="posts">
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://avatars.slack-edge.com/2015-05-27/5101808521_ba68f4f76a99a7360781_original.jpg&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">rasta</span> <a class="permalink" href="https://gdljs.slack.com/archives/general/p1453829457000054"> <span class="date"> <span class="month">Jan</span> <span class="day">26</span>th at <span class="time">11:30 AM</span> </span> </a> </div>
+          <div class="message"><a href="https://twitter.com/gavinjoyce/status/691783314261331969">https://twitter.com/gavinjoyce/status/691783314261331969</a></div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223161741.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="https://twitter.com/gavinjoyce/status/691783314261331969" title="https://twitter.com/gavinjoyce/status/691783314261331969">https://twitter.com/gavinjoyce/status/691783314261331969</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://avatars.slack-edge.com/2015-09-17/10901947015_6b7069425ef8c557a159_original.jpg&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">cuiki</span> <a class="permalink" href="https://gdljs.slack.com/archives/random/p1453833485000227"> <span class="date"> <span class="month">Jan</span> <span class="day">26</span>th at <span class="time">12:38 PM</span> </span> </a> </div>
+          <div class="message"><a href="https://gdljs.slack.com/team/rasta">rasta</a>, mira esta onda para escuchar música en streaming gratis.. aunque sí tienes que registrarte… <http: wefre.com=""></http:></div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223161822.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+</div>
+  </div>
+
+  <div class="post-group">
+    <div class="group-date">
+      <span class="month">Jan</span>
+      <span class="day">27</span>
+    </div>
+    <div class="posts">
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://avatars.slack-edge.com/2016-02-22/22553170850_4d306270362c891fc280_original.png&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">kinduff</span> <a class="permalink" href="https://gdljs.slack.com/archives/random/p1453919861000353"> <span class="date"> <span class="month">Jan</span> <span class="day">27</span>th at <span class="time">12:37 PM</span> </span> </a> </div>
+          <div class="message"><a href="https://github.com/defunctzombie/badginator">https://github.com/defunctzombie/badginator</a></div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223161915.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="https://github.com/defunctzombie/badginator" title="defunctzombie/badginator">defunctzombie/badginator</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+</div>
+  </div>
+
+  <div class="post-group">
+    <div class="group-date">
+      <span class="month">Jan</span>
+      <span class="day">28</span>
+    </div>
+    <div class="posts">
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://secure.gravatar.com/avatar/e1fcaa008d0f25f17235d68fa54ca5f0.jpg?s=512&amp;d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F7fa9%2Fimg%2Favatars%2Fava_0001-512.png&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">joseluistorres</span> <a class="permalink" href="https://gdljs.slack.com/archives/random/p1453997051000480"> <span class="date"> <span class="month">Jan</span> <span class="day">28</span>th at <span class="time">10:4 AM</span> </span> </a> </div>
+          <div class="message"><a href="http://whichcatisyourjavascriptframework.com">http://whichcatisyourjavascriptframework.com</a></div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223161944.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="http://whichcatisyourjavascriptframework.com" title="Which cat is your JavaScript framework?">Which cat is your JavaScript framework?</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://avatars.slack-edge.com/2015-12-02/15788240775_502131c040caa1851015_original.jpg&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">nicandro</span> <a class="permalink" href="https://gdljs.slack.com/archives/random/p1454003324000490"> <span class="date"> <span class="month">Jan</span> <span class="day">28</span>th at <span class="time">11:48 AM</span> </span> </a> </div>
+          <div class="message">si no han leido <a href="http://textastrophe.com">http://textastrophe.com</a> no se en donde nden en la internets <http: textastrophe.com=""></http:></div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223162023.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="http://textastrophe.com/" title="Textastrophe">Textastrophe</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+</div>
+  </div>
+
+  <div class="post-group">
+    <div class="group-date">
+      <span class="month">Feb</span>
+      <span class="day">5</span>
+    </div>
+    <div class="posts">
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://secure.gravatar.com/avatar/fe54325a3caa31be577706f91b128bbc.jpg?s=512&amp;d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F7fa9%2Fimg%2Favatars%2Fava_0011-512.png&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">toily</span> <a class="permalink" href="https://gdljs.slack.com/archives/general/p1454700910000543"> <span class="date"> <span class="month">Feb</span> <span class="day">5</span>th at <span class="time">13:35 PM</span> </span> </a> </div>
+          <div class="message"><a href="http://sonic-pi.net/">http://sonic-pi.net/</a></div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223162146.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="http://sonic-pi.net/" title="http://sonic-pi.net/">http://sonic-pi.net/</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+</div>
+  </div>
+
+  <div class="post-group">
+    <div class="group-date">
+      <span class="month">Feb</span>
+      <span class="day">9</span>
+    </div>
+    <div class="posts">
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://avatars.slack-edge.com/2015-07-02/7165573508_199c89c9ab39eb62acbe_original.jpg&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">greduan</span> <a class="permalink" href="https://gdljs.slack.com/archives/random/p1455064782001125"> <span class="date"> <span class="month">Feb</span> <span class="day">9</span>th at <span class="time">18:39 PM</span> </span> </a> </div>
+          <div class="message"><a href="https://superuser.com/questions/1034137/did-i-just-get-hacked">https://superuser.com/questions/1034137/did-i-just-get-hacked</a></div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223162222.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="https://superuser.com/questions/1034137/did-i-just-get-hacked" title="Did I just get hacked?">Did I just get hacked?</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://secure.gravatar.com/avatar/dfaab8e2bb131794de2ae9c8890c6e2f.jpg?s=512&amp;d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F7fa9%2Fimg%2Favatars%2Fava_0008-512.png&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">rbdr</span> <a class="permalink" href="https://gdljs.slack.com/archives/general/p1455042735000617"> <span class="date"> <span class="month">Feb</span> <span class="day">9</span>th at <span class="time">12:32 PM</span> </span> </a> </div>
+          <div class="message"><a href="https://github.com/rbdr/jsdoc-augmented-template">https://github.com/rbdr/jsdoc-augmented-template</a> :3</div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/x20160223162321.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="https://github.com/rbdr/jsdoc-augmented-template" title="rbdr/jsdoc-augmented-template">rbdr/jsdoc-augmented-template</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://secure.gravatar.com/avatar/fe54325a3caa31be577706f91b128bbc.jpg?s=512&amp;d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F7fa9%2Fimg%2Favatars%2Fava_0011-512.png&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">toily</span> <a class="permalink" href="https://gdljs.slack.com/archives/general/p1455066759000727"> <span class="date"> <span class="month">Feb</span> <span class="day">9</span>th at <span class="time">19:12 PM</span> </span> </a> </div>
+          <div class="message"><a href="https://archive.org/details/DEFCON_19_The_History_and_the_Evolution_of_Computer_Viruses">https://archive.org/details/DEFCON_19_The_History_and_the_Evolution_of_Computer_Viruses</a></div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223162501.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="https://archive.org/details/DEFCON_19_The_History_and_the_Evolution_of_Computer_Viruses" title="The History and the Evolution of Computer Viruses : Mikko Hypponen : Free Download &amp;amp; Streaming : Internet Archive">The History and the Evolution of Computer Viruses : Mikko Hypponen : Free Download &amp;amp; Streaming : Internet Archive</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+</div>
+  </div>
+
+  <div class="post-group">
+    <div class="group-date">
+      <span class="month">Feb</span>
+      <span class="day">7</span>
+    </div>
+    <div class="posts">
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://avatars.slack-edge.com/2016-01-13/18419001220_3c86c24e722c4f70c970_original.jpg&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">sirgalleto</span> <a class="permalink" href="https://gdljs.slack.com/archives/general/p1454905382000559"> <span class="date"> <span class="month">Feb</span> <span class="day">7</span>th at <span class="time">22:23 PM</span> </span> </a> </div>
+          <div class="message">Que el próximo reto sea hacer esto con JSLoops <a href="https://gdljs.slack.com/team/salvador">salvador</a> <https: www.fayerwayer.com="" 2016="" 02="" asi-se-ve-y-escucha-aerodynamic-de-daft-punk-usando-codigo=""></https:></div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223162423.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="https://www.fayerwayer.com/2016/02/asi-se-ve-y-escucha-aerodynamic-de-daft-punk-usando-codigo/" title="https://www.fayerwayer.com/2016/02/asi-se-ve-y-escucha-aerodynamic-de-daft-punk-usando-codigo/">https://www.fayerwayer.com/2016/02/asi-se-ve-y-escucha-aerodynamic-de-daft-punk-usando-codigo/</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+</div>
+  </div>
+
+  <div class="post-group">
+    <div class="group-date">
+      <span class="month">Feb</span>
+      <span class="day">11</span>
+    </div>
+    <div class="posts">
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://avatars.slack-edge.com/2016-01-13/18419001220_3c86c24e722c4f70c970_original.jpg&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">sirgalleto</span> <a class="permalink" href="https://gdljs.slack.com/archives/general/p1455210979000877"> <span class="date"> <span class="month">Feb</span> <span class="day">11</span>th at <span class="time">11:16 AM</span> </span> </a> </div>
+          <div class="message"><a href="https://toddmotto.com/on-init-require-object-syntax-angular-component">https://toddmotto.com/on-init-require-object-syntax-angular-component</a></div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223162824.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="https://toddmotto.com/on-init-require-object-syntax-angular-component" title="$onInit and new">$onInit and new</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://secure.gravatar.com/avatar/dfaab8e2bb131794de2ae9c8890c6e2f.jpg?s=512&amp;d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F7fa9%2Fimg%2Favatars%2Fava_0008-512.png&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">rbdr</span> <a class="permalink" href="https://gdljs.slack.com/archives/general/p1455233787000895"> <span class="date"> <span class="month">Feb</span> <span class="day">11</span>th at <span class="time">17:36 PM</span> </span> </a> </div>
+          <div class="message"><a href="http://flexboxfroggy.com/">http://flexboxfroggy.com/</a></div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223162927.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="http://flexboxfroggy.com/" title="Flexbox Froggy">Flexbox Froggy</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://avatars.slack-edge.com/2015-07-02/7165573508_199c89c9ab39eb62acbe_original.jpg&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">greduan</span> <a class="permalink" href="https://gdljs.slack.com/archives/games/p1455241943000103"> <span class="date"> <span class="month">Feb</span> <span class="day">11</span>th at <span class="time">19:52 PM</span> </span> </a> </div>
+          <div class="message"><a href="https://youtu.be/HQYsFshbkYw">https://youtu.be/HQYsFshbkYw</a></div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223163313.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="https://youtu.be/HQYsFshbkYw" title="Creating a Doom-style 3D engine in C">Creating a Doom-style 3D engine in C</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+</div>
+  </div>
+
+  <div class="post-group">
+    <div class="group-date">
+      <span class="month">Feb</span>
+      <span class="day">12</span>
+    </div>
+    <div class="posts">
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://avatars.slack-edge.com/2016-02-22/22553170850_4d306270362c891fc280_original.png&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">kinduff</span> <a class="permalink" href="https://gdljs.slack.com/archives/general/p1455319023000958"> <span class="date"> <span class="month">Feb</span> <span class="day">12</span>th at <span class="time">17:17 PM</span> </span> </a> </div>
+          <div class="message"><a href="https://github.com/Automattic/kue">https://github.com/Automattic/kue</a></div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223163036.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="https://github.com/Automattic/kue" title="Automattic/kue">Automattic/kue</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://avatars.slack-edge.com/2016-02-22/22553170850_4d306270362c891fc280_original.png&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">kinduff</span> <a class="permalink" href="https://gdljs.slack.com/archives/general/p1455318953000954"> <span class="date"> <span class="month">Feb</span> <span class="day">12</span>th at <span class="time">17:15 PM</span> </span> </a> </div>
+          <div class="message"><a href="https://github.com/rschmukler/agenda">https://github.com/rschmukler/agenda</a></div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223163152.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="https://github.com/rschmukler/agenda" title="rschmukler/agenda">rschmukler/agenda</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+</div>
+  </div>
+
+  <div class="post-group">
+    <div class="group-date">
+      <span class="month">Feb</span>
+      <span class="day">16</span>
+    </div>
+    <div class="posts">
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://secure.gravatar.com/avatar/292cf8e34179a3f68d0b10f61e471a2c.jpg?s=512&amp;d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F7fa9%2Fimg%2Favatars%2Fava_0016-512.png&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">lorenzo</span> <a class="permalink" href="https://gdljs.slack.com/archives/random/p1455640474000037"> <span class="date"> <span class="month">Feb</span> <span class="day">16</span>th at <span class="time">10:34 AM</span> </span> </a> </div>
+          <div class="message"><a href="https://www.youtube.com/channel/UCP_lo1MFyx5IXDeD9s_6nUw">https://www.youtube.com/channel/UCP_lo1MFyx5IXDeD9s_6nUw</a></div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223163341.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="https://www.youtube.com/channel/UCP_lo1MFyx5IXDeD9s_6nUw" title="Facebook Developers">Facebook Developers</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://avatars.slack-edge.com/2016-02-22/22553170850_4d306270362c891fc280_original.png&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">kinduff</span> <a class="permalink" href="https://gdljs.slack.com/archives/general/p1455648236000045"> <span class="date"> <span class="month">Feb</span> <span class="day">16</span>th at <span class="time">12:43 PM</span> </span> </a> </div>
+          <div class="message"><a href="http://baconwiki.pancakeapps.com/index.html">http://baconwiki.pancakeapps.com/index.html</a></div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223163435.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="http://baconwiki.pancakeapps.com/index.html" title="http://baconwiki.pancakeapps.com/index.html">http://baconwiki.pancakeapps.com/index.html</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+</div>
+  </div>
+
+  <div class="post-group">
+    <div class="group-date">
+      <span class="month">Feb</span>
+      <span class="day">15</span>
+    </div>
+    <div class="posts">
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://avatars.slack-edge.com/2015-10-31/13622791508_218e8bdf0c8567fa1460_192.jpg&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">memo</span> <a class="permalink" href="https://gdljs.slack.com/archives/random/p1455577632000020"> <span class="date"> <span class="month">Feb</span> <span class="day">15</span>th at <span class="time">17:7 PM</span> </span> </a> </div>
+          <div class="message"><a href="http://www.ryver.com/ryver-vs-slack/">http://www.ryver.com/ryver-vs-slack/</a></div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223163409.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="http://www.ryver.com/ryver-vs-slack/" title="Slack vs. Ryver">Slack vs. Ryver</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+</div>
+  </div>
+
+  <div class="post-group">
+    <div class="group-date">
+      <span class="month">Feb</span>
+      <span class="day">17</span>
+    </div>
+    <div class="posts">
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://secure.gravatar.com/avatar/f2c730957ef0aec5616091b30fe88075.jpg?s=512&amp;d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F7fa9%2Fimg%2Favatars%2Fava_0005-512.png&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">chubas</span> <a class="permalink" href="https://gdljs.slack.com/archives/random/p1455730330000095"> <span class="date"> <span class="month">Feb</span> <span class="day">17</span>th at <span class="time">11:32 AM</span> </span> </a> </div>
+          <div class="message"><a href="http://techcrunch.com/2016/02/16/giphy-closes-55-million-series-c-at-a-300-million-post-money-valuation/">http://techcrunch.com/2016/02/16/giphy-closes-55-million-series-c-at-a-300-million-post-money-valuation/</a></div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223163503.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="http://techcrunch.com/2016/02/16/giphy-closes-55-million-series-c-at-a-300-million-post-money-valuation/" title="Giphy Closes $55 Million Series C At A $300 Million Post-Money&nbsp;Valuation">Giphy Closes $55 Million Series C At A $300 Million Post-Money&nbsp;Valuation</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+</div>
+  </div>
+
+  <div class="post-group">
+    <div class="group-date">
+      <span class="month">Feb</span>
+      <span class="day">18</span>
+    </div>
+    <div class="posts">
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://secure.gravatar.com/avatar/e1fcaa008d0f25f17235d68fa54ca5f0.jpg?s=512&amp;d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F7fa9%2Fimg%2Favatars%2Fava_0001-512.png&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">joseluistorres</span> <a class="permalink" href="https://gdljs.slack.com/archives/random/p1455812259000179"> <span class="date"> <span class="month">Feb</span> <span class="day">18</span>th at <span class="time">10:17 AM</span> </span> </a> </div>
+          <div class="message">te recomiendo pruebes tambien esta <a href="https://github.com/shakacode/react_on_rails">https://github.com/shakacode/react_on_rails</a></div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223163553.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="https://github.com/shakacode/react_on_rails" title="shakacode/react_on_rails">shakacode/react_on_rails</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://secure.gravatar.com/avatar/93ef7ad0a7b922e0a6a1a1f44cfbea23.jpg?s=512&amp;d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F7fa9%2Fimg%2Favatars%2Fava_0010-512.png&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">orlando</span> <a class="permalink" href="https://gdljs.slack.com/archives/general/p1455816608000206"> <span class="date"> <span class="month">Feb</span> <span class="day">18</span>th at <span class="time">11:30 AM</span> </span> </a> </div>
+          <div class="message"><a href="https://gdljs.slack.com/team/pablasso">pablasso</a>: <http: teamm.io|teamm.io=""></http:></div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223163621.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://secure.gravatar.com/avatar/93ef7ad0a7b922e0a6a1a1f44cfbea23.jpg?s=512&amp;d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F7fa9%2Fimg%2Favatars%2Fava_0010-512.png&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">orlando</span> <a class="permalink" href="https://gdljs.slack.com/archives/general/p1455814308000199"> <span class="date"> <span class="month">Feb</span> <span class="day">18</span>th at <span class="time">10:51 AM</span> </span> </a> </div>
+          <div class="message">bueno en hash hicimos un app para eso, <a href="http://updatehub.co">http://updatehub.co</a></div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223163659.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="http://updatehub.co" title="http://updatehub.co">http://updatehub.co</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://avatars.slack-edge.com/2016-01-13/18419001220_3c86c24e722c4f70c970_original.jpg&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">sirgalleto</span> <a class="permalink" href="https://gdljs.slack.com/archives/random/p1455843529000299"> <span class="date"> <span class="month">Feb</span> <span class="day">18</span>th at <span class="time">18:58 PM</span> </span> </a> </div>
+          <div class="message"><a href="http://thenextweb.com/apps/2016/02/18/use-apples-app-store-and-google-play-like-they-would-have-looked-in-the-1980s/">http://thenextweb.com/apps/2016/02/18/use-apples-app-store-and-google-play-like-they-would-have-looked-in-the-1980s/</a></div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223163733.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="http://thenextweb.com/apps/2016/02/18/use-apples-app-store-and-google-play-like-they-would-have-looked-in-the-1980s/" title="Use Apple's App Store and Google Play, 1980s style">Use Apple's App Store and Google Play, 1980s style</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+</div>
+  </div>
+
+  <div class="post-group">
+    <div class="group-date">
+      <span class="month">Feb</span>
+      <span class="day">21</span>
+    </div>
+    <div class="posts">
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://avatars.slack-edge.com/2015-07-02/7165573508_199c89c9ab39eb62acbe_original.jpg&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">greduan</span> <a class="permalink" href="https://gdljs.slack.com/archives/random/p1456095233000547"> <span class="date"> <span class="month">Feb</span> <span class="day">21</span>th at <span class="time">16:53 PM</span> </span> </a> </div>
+          <div class="message"><a href="https://youtu.be/cjoCNRpLanY">https://youtu.be/cjoCNRpLanY</a></div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223163811.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="https://youtu.be/cjoCNRpLanY" title="Conquering Your Finances with Emacs and Ledger">Conquering Your Finances with Emacs and Ledger</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+</div>
+  </div>
+
+  <div class="post-group">
+    <div class="group-date">
+      <span class="month">Feb</span>
+      <span class="day">22</span>
+    </div>
+    <div class="posts">
+  <div class="post-container">
+    <div class="post">
+
+      <div class="source">
+
+          <div class="avatar" style="background-image: url(&quot;https://secure.gravatar.com/avatar/13039d2967a4170748a554ec1ea16bfe.jpg?s=512&amp;d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F7fa9%2Fimg%2Favatars%2Fava_0002-512.png&quot;);"><div class="avatar-shade"></div></div>
+          <div class="meta"> <span class="username">hugo_dc</span> <a class="permalink" href="https://gdljs.slack.com/archives/general/p1456167574000315"> <span class="date"> <span class="month">Feb</span> <span class="day">22</span>th at <span class="time">12:59 PM</span> </span> </a> </div>
+          <div class="message">Buen día, tengo una duda, estoy tratando de agregar <a href="https://github.com/yabwe/medium-editor">https://github.com/yabwe/medium-editor</a> a una aplicación de Electron, me está arrojando el siguiente error:  `Uncaught ReferenceError: MediumEditor is not defined`  ,  creo que tengo todo tal cuál en los demos, pero no funciona :neutral_face:</div>
+
+      </div>
+
+      <div class="content">
+        <img src="img/20160223163935.png">
+        <p style="display: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, expedita perspiciatis odio minus, dignissimos explicabo voluptatem esse error delectus cum iusto deserunt tempora eaque voluptatum eveniet accusamus non. A, enim!</p>
+      </div>
+
+      <div class="links"><a href="https://github.com/yabwe/medium-editor" title="yabwe/medium-editor">yabwe/medium-editor</a></div>
+
+      <div class="shade"></div>
+
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+</div>
+
+
+
+</body>
+</html>
