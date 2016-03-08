@@ -9,8 +9,10 @@ ayuda. Read on.
 #### TL;DR
 
 * [Abre un issue][new-issue]
+* Sigue el template predefinido (Los que no cumplan con este template no
+  seran considerados)
 * Plática de 20 minutos máximo
-* Un demo en github
+* Un demo en Github que podamos forkear
 
 En GDLJS siempre buscamos escuchar de temas interesantes de la
 comunidad, y queremos escuchar de todos. Si no estás seguro de que
