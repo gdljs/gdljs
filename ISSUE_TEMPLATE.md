@@ -6,7 +6,7 @@ Un pequeño brief de la platica.
 
 Que experiencia tienes sobre el tema y por que te gustaría compartirla
 
-## Content
+## Agenda
 
 El contenido de la platica, puedes hacerlo algo así como un indice.
 
