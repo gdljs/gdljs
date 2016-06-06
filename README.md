@@ -24,6 +24,14 @@ resuelve: Varios pueden tener problemas similares, y el irse por el
 proceso de resolución puede ser una buena forma de ayudar y de entender
 como funcionan algunos aspectos del lenguaje.
 
+También nos gusta escuchar de temas relacionados con JS que no son
+necesariamente sobre el lenguaje pero impactan como desarrollamos.
+
+Si apenas estás empezando, o si has estado pasando por un proceso de
+aprendizaje (de otro lenguaje o de 0), también queremos saber como
+aprender JS ha cambiado tu forma de pensar sobre el código. (O de
+la otra forma: como otro skill ha cambiado tu forma de pensar sobre JS)
+
 Si ya sabes de que quieres hablar, [abre un issue][new-issue]. Si tienes
 una idea vaga y quieres feedback de como mejorar, también abre un issue,
 entre todos podemos ayudar a enfocar y mejorar el contenido.
