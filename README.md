@@ -76,6 +76,22 @@ puedes hacérnoslo saber por [slack][slack], [twitter][twitter], o
 Si tu problema es más urgente, requiere discreción o consideras que
 estos canales no son apropiados, puedes enviarnos un [e-mail][email].
 
+## Lifecycle de los issues
+
+Para mantener un board limpio, feliz y con menos confusión, tenemos
+un lifecycle de issues que define cuando cerramos cada propuesta:
+
+1. Si no hay actividad del autor en una o dos semanas, los mods
+   deberían mencionarlo preguntando por updates.
+2. Si ya pasó un mes desde el recordatorio de un mod, y no hay
+   respuesta del autor, se le aplicará un tag de `inactive`
+3. Si ya pasó un mes desde que se aplicó el tag de `inactive`
+   y no hay respuesta del autor original, se cerrará el issue.
+
+Cualquier respuesta del autor original lo resetea a su status
+original y vuelve el ciclo desde 0. Igual, si el issue está
+cerrado, el autor aún puede comentar para que se abra de nuevo.
+
 ## Si todo lo demás falla:
 
 * Outreach, Patrocinios, Organización General: [Orlando del
