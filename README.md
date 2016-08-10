@@ -92,7 +92,7 @@ Conviertete en un Miembro GDLJS Pariente plus™, se el javascript que siempre q
 
 ## Sponsors
 
-Con una donación, nos ayudas a llevar adelante nuestra misión. La donación es en MXN [[Become a sponsor](https://opencollective.com/gdljs#sponsor)]
+Con una donación, nos ayudas a llevar adelante nuestra misión. La donación es en MXN [[Become a sponsor](https://opencollective.com/gdljs#join-us)]
 
 <a href="https://opencollective.com/gdljs/sponsor/0/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/0/avatar.svg"></a>
 <a href="https://opencollective.com/gdljs/sponsor/1/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/1/avatar.svg"></a>
