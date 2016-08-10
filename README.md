@@ -1,3 +1,5 @@
+[![OpenCollective](https://opencollective.com/gdljs/backers/badge.svg)](#backers) [![OpenCollective](https://opencollective.com/gdljs/sponsors/badge.svg)](#sponsors)
+
 # Comunidad de GDLJS
 
 ¿Quieres hablar en GDLJS? ¿Quieres organizar un evento? ¿Hay algo que
