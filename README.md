@@ -55,6 +55,76 @@ un issue][new-issue] y se organiza en comunidad, ayudamos con los
 lugares, comunicación y patrocinadores que estén disponibles y tu
 eres responsable del evento.
 
+## Backer
+
+Conviertete en un Miembro GDLJS Pariente plus™, se el javascript que siempre quisiste ayudandonos a seguir llevando pizza y cerveza cada mes!. La donación será en MXN [[GDLJS Pariente plus™](https://opencollective.com/gdljs#join-us)]
+
+<a href="https://opencollective.com/gdljs/backer/0/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/0/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/1/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/1/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/2/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/2/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/3/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/3/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/4/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/4/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/5/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/5/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/6/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/6/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/7/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/7/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/8/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/8/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/9/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/9/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/10/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/10/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/11/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/11/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/12/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/12/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/13/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/13/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/14/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/14/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/15/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/15/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/16/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/16/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/17/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/17/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/18/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/18/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/19/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/19/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/20/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/20/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/21/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/21/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/22/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/22/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/23/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/23/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/24/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/24/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/25/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/25/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/26/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/26/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/27/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/27/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/28/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/28/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/backer/29/website" target="_blank"><img src="https://opencollective.com/gdljs/backer/29/avatar.svg"></a>
+
+## Sponsors
+
+Con una donación, nos ayudas a llevar adelante nuestra misión. La donación es en MXN [[Become a sponsor](https://opencollective.com/gdljs#sponsor)]
+
+<a href="https://opencollective.com/gdljs/sponsor/0/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/0/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/1/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/1/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/2/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/2/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/3/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/3/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/4/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/4/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/5/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/5/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/6/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/6/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/7/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/7/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/8/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/8/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/9/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/9/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/10/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/10/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/11/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/11/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/12/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/12/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/13/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/13/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/14/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/14/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/15/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/15/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/16/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/16/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/17/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/17/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/18/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/18/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/19/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/19/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/20/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/20/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/21/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/21/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/22/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/22/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/23/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/23/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/24/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/24/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/25/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/25/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/26/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/26/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/27/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/27/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/28/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/28/avatar.svg"></a>
+<a href="https://opencollective.com/gdljs/sponsor/29/website" target="_blank"><img src="https://opencollective.com/gdljs/sponsor/29/avatar.svg"></a>
+
 ## LA COMUNIDAD DEBE VER ESTO
 
 ¿Tienes un demo que crees que debería estar en nuestro github? Solo
