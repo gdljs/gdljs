@@ -164,13 +164,13 @@ Cualquier respuesta del autor original lo resetea a su status
 original y vuelve el ciclo desde 0. Igual, si el issue está
 cerrado, el autor aún puede comentar para que se abra de nuevo.
 
-## Si todo lo demás falla:
+## Equipo GDLJS
 
-* Outreach, Patrocinios, Organización General: [Orlando del
-  Águila][orlando]
-* GDLJS Talks: [Rubén Beltrán del Río][ruben]
-* Newsletter y Video: [Joaquín Benitez][joaquin]
-* GDLJS Social: [Salvador Elizarrarás][salvador]
+* [Orlando del Águila][orlando]
+* [Joaquín Benitez][joaquin]
+* [Karla Romero][karla]
+* [Rubén Medellín][chubas]
+* [Rubén Beltrán del Río][ruben]
 
 [new-issue]: https://github.com/gdljs/gdljs/issues/new
 [slack]: https://gdljs.slack.com
@@ -180,5 +180,6 @@ cerrado, el autor aún puede comentar para que se abra de nuevo.
 [email]: mailto:contacto@gdljs.com
 [orlando]: https://twitter.com/eatcodetravel
 [ruben]: https://twitter.com/pigeonfolk
-[salvador]: https://twitter.com/SalvadorBFM
+[karla]: https://twitter.com/Karla_Itexican
 [joaquin]: https://twitter.com/escusado
+[chubas]: https://twitter.com/chubas
