@@ -9,6 +9,8 @@ const Slackey = require('slackey'),
 class MessagesProcessor {
   get () {
 
+    this._remainingMessages = 0;
+
     Firebase.initializeApp({
       serviceAccount: config.firebase.serviceAccount,
       databaseURL: config.firebase.databaseURL
@@ -19,12 +21,10 @@ class MessagesProcessor {
       count:100
     }, this._handleIncomingMessages.bind(this));
 
-    console.log('>>>', config.port);
-    return;
   }
 
   _handleIncomingMessages (err, response) {
-
+    this._remainingMessages = response.messages.matches.length;
     response.messages.matches.map( function (data) {
 
       slackApiClient.send('reactions.get',{
@@ -36,14 +36,27 @@ class MessagesProcessor {
 
   }
 
+  _checkForPendingMessages () {
+    if(this._remainingMessages){
+      return;
+    }
+
+    //finished
+    process.exit();
+  }
+
   _handleMessage (err, messageData) {
     const messageId = messageData.channel + '-' + messageData.message.ts.replace(/\./g,'-');
-    console.log('.>>> saving', messageId);
-    Firebase.database().ref(config.firebase.messagesPath).child(messageId).set(messageData, function(snapshot) {
-      console.log('Saved >>>>>', snapshot.val());
-    });
+    console.log('💾 🔄:', messageId);
 
+    Firebase.database().ref(config.firebase.messagesPath).child(messageId).set(messageData, function(snapshot) {
+      console.log('💾 ✅ ', messageId);
+
+      this._remainingMessages--;
+      this._checkForPendingMessages();
+    }.bind(this));
   }
+
 };
 
 new MessagesProcessor().get();

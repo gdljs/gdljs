@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node bin/app.js",
-    "process_messages" : "node bin/message_processor.js"
+    "process_messages" : "node bin/messages_processor.js"
   },
   "repository": {
     "type": "git",
