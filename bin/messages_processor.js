@@ -48,15 +48,14 @@ class MessagesProcessor {
     }.bind(this));
   }
 
-
-    _checkForPendingMessages () {
-      if(this._remainingMessages){
-        return;
-      }
-
-      //finished
-      process.exit();
+  _checkForPendingMessages () {
+    if(this._remainingMessages){
+      return;
     }
+
+    //finished
+    process.exit();
+  }
 
 };
 
