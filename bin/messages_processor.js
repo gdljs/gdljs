@@ -14,7 +14,7 @@ class MessagesProcessor {
       serviceAccount: config.firebase.serviceAccount,
       databaseURL: config.firebase.databaseURL
     });
-    slackApiClient.send('search.messages',{
+    slackApiClient.send('search.messages', {
       query: config.slack.messagesQuery,
       count:100
     }, this._handleIncomingMessages.bind(this));
@@ -23,7 +23,7 @@ class MessagesProcessor {
   _handleIncomingMessages (err, response) {
     this._remainingMessages = response.messages.matches.length;
     response.messages.matches.map( function (data) {
-      slackApiClient.send('reactions.get',{
+      slackApiClient.send('reactions.get', {
         channel : data.channel.id,
         timestamp : data.ts
       }, this._handleMessage.bind(this));
@@ -32,16 +32,16 @@ class MessagesProcessor {
 
   _handleMessage (err, messageData) {
     const messageId = messageData.channel + '-' + messageData.message.ts.replace(/\./g,'-');
-    console.log('💾 🔄:', messageId);
-    Firebase.database().ref(config.firebase.messagesPath).child(messageId).set(messageData, function(snapshot) {
-      console.log('💾 ✅ ', messageId);
+    console.log('💾 🔄: ', messageId);
+    Firebase.database().ref(config.firebase.messagesPath).child(messageId).set(messageData, function (snapshot) {
+      console.log('💾 ✅: ', messageId);
       this._remainingMessages--;
       this._checkForPendingMessages();
     }.bind(this));
   }
 
   _checkForPendingMessages () {
-    if(this._remainingMessages){
+    if (this._remainingMessages) {
       return;
     }
     process.exit();
