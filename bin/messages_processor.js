@@ -3,7 +3,7 @@
 const config = require('../config/config');
 
 const Slackey = require('slackey'),
-      Firebase = require("firebase"),
+      Firebase = require('firebase'),
       slackApiClient = Slackey.getAPIClient(config.slack.token);
 
 class MessagesProcessor {

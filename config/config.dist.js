@@ -7,8 +7,8 @@ module.exports = {
     messagesQuery : 'has::pin:'
   },
   firebase : {
-    serviceAccount: "config/firebase-config.json",
-    databaseURL: "https://<your-firebase>.firebaseio.com",
+    serviceAccount: 'config/firebase-config.json',
+    databaseURL: 'https://<your-firebase>.firebaseio.com',
     messagesPath : '/messages',
     emojisPath : '/emojis',
     usersPath : '/users'
