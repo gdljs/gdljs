@@ -4,7 +4,7 @@ const config = require('../config/config');
 
 const Slackey = require('slackey'),
       Firebase = require("firebase"),
-      slackApiClient = Slackey.getAPIClient(config.slackToken);
+      slackApiClient = Slackey.getAPIClient(config.slack.token);
 
 class MessagesProcessor {
   get () {
@@ -17,7 +17,7 @@ class MessagesProcessor {
     });
 
     slackApiClient.send('search.messages',{
-      query: 'has::pin:',
+      query: config.slack.messagesQuery,
       count:100
     }, this._handleIncomingMessages.bind(this));
 
