@@ -36,15 +36,6 @@ class MessagesProcessor {
 
   }
 
-  _checkForPendingMessages () {
-    if(this._remainingMessages){
-      return;
-    }
-
-    //finished
-    process.exit();
-  }
-
   _handleMessage (err, messageData) {
     const messageId = messageData.channel + '-' + messageData.message.ts.replace(/\./g,'-');
     console.log('💾 🔄:', messageId);
@@ -56,6 +47,16 @@ class MessagesProcessor {
       this._checkForPendingMessages();
     }.bind(this));
   }
+
+
+    _checkForPendingMessages () {
+      if(this._remainingMessages){
+        return;
+      }
+
+      //finished
+      process.exit();
+    }
 
 };
 
