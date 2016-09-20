@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node bin/app.js",
-    "process_messages" : "node bin/messages_processor.js"
+    "process_messages": "node bin/messages_processor.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/gdljs/gdljs",
   "dependencies": {
+    "download": "^5.0.2",
     "firebase": "^3.3.2",
     "getenv2": "^0.1.0",
     "koa": "^1.2.4",

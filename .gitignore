@@ -2,3 +2,5 @@ config/config.js
 config/firebase-config.json
 node_modules/
 npm-debug.log
+scratch
+*.DS_Store*
