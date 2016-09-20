@@ -57,7 +57,7 @@ un issue][new-issue] y se organiza en comunidad, ayudamos con los
 lugares, comunicación y patrocinadores que estén disponibles y tu
 eres responsable del evento.
 
-## Backer
+## Backers
 
 Conviertete en un Miembro GDLJS Pariente plus™, se el javascript que siempre quisiste ayudandonos a seguir llevando pizza y cerveza cada mes!. La donación será en MXN [[GDLJS Pariente plus™](https://opencollective.com/gdljs#join-us)]
 
