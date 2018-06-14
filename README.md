@@ -169,6 +169,8 @@ cerrado, el autor aún puede comentar para que se abra de nuevo.
 * [Orlando del Águila][orlando]
 * [Joaquín Benitez][joaquin]
 * [Karla Romero][karla]
+* [Sebastian Osorio][galleto]
+* [Karly García][karly]
 * [Rubén Medellín][chubas]
 * [Rubén Beltrán del Río][ruben]
 
@@ -183,3 +185,5 @@ cerrado, el autor aún puede comentar para que se abra de nuevo.
 [karla]: https://twitter.com/Karla_Itexican
 [joaquin]: https://twitter.com/escusado
 [chubas]: https://twitter.com/chubas
+[karly]: https://twitter.com/KarlyGrCm
+[galleto]: https://twitter.com/sirgalleto
